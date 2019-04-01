@@ -1,0 +1,33 @@
+.option{
+    width:60%;
+    height: 300px;
+    margin-left: 15%;
+    border-width: 4px;
+    border-style: solid;
+}
+.purple{
+    border-color:#69577d ;
+    color:#69577d ;
+    text-align: center;
+}
+.magenta{
+    border-color:#c32d46 ;
+    color:#c32d46 ;
+    text-align: center;
+}
+.small{
+    width: 50%;
+}
+#leftcol {
+	width: 30%;
+	float:left;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+#rightcol {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
