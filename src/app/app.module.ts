@@ -11,6 +11,7 @@ import { ScanComponent } from './components/scan/scan.component';
 import { ReturnComponent } from './components/return/return.component';
 import { LoanedComponent } from './components/loaned/loaned.component';
 import { LoginComponent } from './components/login/login.component';
+import { CoverComponent } from './components/cover/cover.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoginComponent } from './components/login/login.component';
     ScanComponent,
     ReturnComponent,
     LoanedComponent,
-    LoginComponent
+    LoginComponent,
+    CoverComponent
   ],
   imports: [
     BrowserModule,

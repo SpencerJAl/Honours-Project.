@@ -6,8 +6,10 @@ import { LoginComponent } from './components/login/login.component';
 import { LoanedComponent } from './components/loaned/loaned.component';
 import { ReturnComponent } from './components/return/return.component';
 import { ScanComponent } from './components/scan/scan.component';
+import { CoverComponent } from'./components/cover/cover.component';
 
 const routes: Routes = [
+  { path: 'cover', component: CoverComponent },
   { path: 'menu', component: MenuComponent},
   { path: 'borrow', component: BorrowComponent},
   { path: 'login', component: LoginComponent},

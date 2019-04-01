@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -7,7 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'honours';
-  constructor(){
-  console.log('load is good');
-  }
+  constructor(private router: Router){}
+  ngOnInit() {
+    // do init at here for current route.
+
+    setTimeout(() => {
+        this.router.navigate(['cover']);
+    }, 3000);  //3s
+}
+  
 }
