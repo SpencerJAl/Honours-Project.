@@ -50,6 +50,7 @@ h1{
 #description{
     border: 1px black solid;
     width:100%;
+    clear:both;
 }
 #back{
     height:100px;
@@ -63,9 +64,13 @@ h1{
     text-align: center;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+    float:left;
+    margin-left:10px;
 }
 #foot{ 
         width:100%;
+        margin-top: 20px;
+        padding-top: 90px;
 }
 #borrow{
     height:100px;
@@ -79,4 +84,6 @@ h1{
     text-align: center;
     font-family: 'Lato', sans-serif;
     text-decoration: none; 
+    float:right;
+    margin-right:10px;
 }
