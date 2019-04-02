@@ -9,6 +9,7 @@ import { ScanComponent } from './components/scan/scan.component';
 import { CoverComponent } from'./components/cover/cover.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/cover', pathMatch: 'full'},
   { path: 'cover', component: CoverComponent },
   { path: 'menu', component: MenuComponent},
   { path: 'borrow', component: BorrowComponent},

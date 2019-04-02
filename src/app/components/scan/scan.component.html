@@ -1,11 +1,25 @@
 <app-header></app-header>
 <div id="content">
   <div id="scanHead">
-  <h1>Scan Book</h1>
+    <div id="Title">
+      <h1>Scan Book</h1>
+    </div>
     <div id="UserDet">
-      {{username}}
-      {{UserID}}
+       <p><label>Name: </label>Guest</p>
+       <p><label>Matriculation Number: </label>00000001</p>
     </div>
   </div>
+  <br>
+  <div id="break"></div>
   <img src="../../../assets/img/scan.jpg" alt="Scan graphic" id="graphic"/>
+  <div id="foot">
+    <div id="button">
+        <a routerLink="/menu" routerLinkActive="active">
+          <button id="back">
+           Back
+          </button>
+        </a>
+      </div>
+       <h2>Scan the book</h2>
+  </div>
 </div>
