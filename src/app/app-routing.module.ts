@@ -7,6 +7,7 @@ import { LoanedComponent } from './components/loaned/loaned.component';
 import { ReturnComponent } from './components/return/return.component';
 import { ScanComponent } from './components/scan/scan.component';
 import { CoverComponent } from'./components/cover/cover.component';
+import { ReturnSelectComponent } from './components/return-select/return-select.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/cover', pathMatch: 'full'},
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'loaned', component: LoanedComponent},
   { path: 'return', component: ReturnComponent},
-  { path: 'scan', component: ScanComponent}
+  { path: 'scan', component: ScanComponent},
+  { path: 'returnSelect', component: ReturnSelectComponent }
 
 ];
 
