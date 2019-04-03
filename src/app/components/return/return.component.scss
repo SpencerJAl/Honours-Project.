@@ -38,9 +38,10 @@ h1{
     margin-left:10px;
 }
 #foot{ 
+    position: absolute;
+    bototm: 0px;
         width:100%;
         margin-top: 20px;
-        padding-top: 90px;
 }
 #return{
     height:100px;
@@ -66,4 +67,10 @@ h1{
 }
 #break{
     clear:both;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #c32d46;
+    text-align: center;
 }
