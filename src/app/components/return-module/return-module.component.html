@@ -10,7 +10,7 @@
        Fine
       </th>
       <th>
-        Return Book
+        Select book to return
       </th>
     </tr>
     <tr class="row" *ngFor="let loan of loans">
@@ -23,7 +23,7 @@
       <td>
         {{loan.fine}}
       </td>
-      <td>
+      <td class="center">
         <input type="checkbox" name = {{loan.id}} value = {{loan.id}}/>
       </td>
     </tr>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Loan } from '../../models/loans';
-//import { CheckboxModule } from 'primgeng/checkbox';
+
+
 @Component({
   selector: 'app-return-module',
   templateUrl: './return-module.component.html',
@@ -9,6 +10,7 @@ import { Loan } from '../../models/loans';
 export class ReturnModuleComponent implements OnInit {
 
   loans:Loan[];
+
 
   constructor() { }
 
