@@ -1,9 +1,23 @@
 <app-header></app-header>
 <div id="content">
-  <div>
-
-  </div>
-  <div>
-
+    <div id="scanHead">
+        <div id="Title">
+             <h1>View Loaned</h1>
+        </div>
+        <div id="UserDet">
+            <p><label>Name: </label>Guest</p>
+            <p><label>Matriculation Number: </label>00000001</p>
+        </div>
+    </div>
+    <div class="gap"></div>
+  <app-loaned-module></app-loaned-module>
+  <div id="foot">
+      <div class="button">
+          <a routerLink="/menu" routerLinkActive="active">
+            <button id="back">
+             Back
+            </button>
+          </a>
+        </div>
   </div>
 </div>

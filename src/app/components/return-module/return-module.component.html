@@ -1,0 +1,31 @@
+<table>
+    <tr class="row">
+      <th>
+       Title
+      </th>
+      <th>
+       Due Date
+      </th>
+      <th>
+       Fine
+      </th>
+      <th>
+        Return Book
+      </th>
+    </tr>
+    <tr class="row" *ngFor="let loan of loans">
+      <td>
+        {{loan.title}}
+      </td>
+      <td>
+        {{loan.date}}
+      </td>
+      <td>
+        {{loan.fine}}
+      </td>
+      <td>
+        <input type="checkbox" name = {{loan.id}} value = {{loan.id}}/>
+      </td>
+    </tr>
+   </table>
+   

@@ -8,6 +8,8 @@ import { ReturnComponent } from './components/return/return.component';
 import { ScanComponent } from './components/scan/scan.component';
 import { CoverComponent } from'./components/cover/cover.component';
 import { ReturnSelectComponent } from './components/return-select/return-select.component';
+import { LoanedModuleComponent } from './components/loaned-module/loaned-module.component';
+import { ReturnModuleComponent } from './components/return-module/return-module.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/cover', pathMatch: 'full'},
@@ -18,7 +20,9 @@ const routes: Routes = [
   { path: 'loaned', component: LoanedComponent},
   { path: 'return', component: ReturnComponent},
   { path: 'scan', component: ScanComponent},
-  { path: 'returnSelect', component: ReturnSelectComponent }
+  { path: 'returnSelect', component: ReturnSelectComponent },
+  { path: 'return-module', component: ReturnModuleComponent },
+  { path: 'loaned-module', component: LoanedModuleComponent}
 
 ];
 
