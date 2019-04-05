@@ -1,11 +1,20 @@
+#header{
+    width:100%;
+}
+.head-col{
+    width:33%
+}
 #icon{
     float:right;
     margin: 0%;
+    width:33%;
+    height: 40px;
 }
-.icon_fix{
-    width:20%;
+.icon{
+    height: 40px;
     border: solid 4px black;
     margin-right:4%; 
+    width :50%;
 }
 h1{
     text-align: center;
